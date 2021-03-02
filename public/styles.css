@@ -1,0 +1,43 @@
+.section {
+  height: 100vh;
+}
+
+.intro_text {
+  padding: 40vh 0 0 10vh;
+  font-family: "Mali", cursive;
+  /* font-family: 'Pacifico', cursive; */
+  font-size: 400%;
+  opacity: 0.9;
+}
+
+.img_phone {
+  position: absolute;
+  top: 10vh;
+  right: 10vh;
+  height: 85vh;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.img_browser {
+  position: absolute;
+  top: 20vh;
+  right: 30vh;
+  height: 45vh;
+  z-index: 3;
+  opacity: 0.9;
+}
+
+.navbar-collapse {
+  position: absolute;
+  top: 10px;
+  right: 35px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
