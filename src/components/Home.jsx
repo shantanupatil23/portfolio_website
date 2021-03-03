@@ -1,7 +1,7 @@
 import React from "react";
-import img_browser from "../assets/img_browser.png";
-import img_phone from "../assets/img_phone.png";
-import img_aurora from "../assets/img_aurora.jpg";
+import img_browser from "../assets/home/img_browser.png";
+import img_phone from "../assets/home/img_phone.png";
+import img_aurora from "../assets/home/img_aurora.jpg";
 
 function Home() {
   return (

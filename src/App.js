@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Description from "./components/Description";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <NavBar />
       <main>
         <div>
-          <Home/>
-          <Description/>
+          <Home />
+          <Description />
+          <Projects />
         </div>
       </main>
       <Footer />

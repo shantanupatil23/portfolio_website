@@ -47,7 +47,7 @@ section {
 
 /* DESPRIPTION */
 
-#description{
+#description {
   background-color: rgba(18, 239, 245, 0.1);
 }
 
@@ -59,14 +59,14 @@ section {
   border-radius: 5vh;
 }
 
-.name_text{
+.name_text {
   position: absolute;
   top: 138vh;
   left: 93vh;
   z-index: 4;
 }
 
-.description_text{
+.description_text {
   position: absolute;
   top: 145vh;
   left: 93vh;
@@ -81,5 +81,73 @@ section {
   right: 30vh;
   height: 53vh;
   z-index: 3;
-  opacity: 0.9;
+  opacity: 0.5;
+}
+
+/* PROJECTS */
+
+#projects {
+  background-color: #307672;
+}
+
+.projectsTitle{
+  position: absolute;
+  top: 214vh;
+  left: 15vh;
+  font-family: "Mali", cursive;
+  color:  rgb(18, 239, 245);
+  font-size: 400%;
+}
+
+.gameCardRow {
+  position: absolute;
+  top: 212vh;
+  right: 20vh;
+}
+
+.gameCard {
+  margin: 2vh;
+  padding: 3vh 3vh 0vh 3vh;
+  background-color: rgba(18, 239, 245, 0.4);
+  border-radius: 2vh;
+  width: 20vh;
+}
+
+.gameCard img {
+  align-self: center;
+  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gameCard p {
+  padding-top: 2vh;
+  color: black;
+  text-align: center;
+}
+
+.projectCardRow {
+  padding-top: 40vh;
+}
+
+.projectCard {
+  margin: 2vh;
+  padding: 3vh 3vh 0vh 3vh;
+  background-color: rgba(18, 239, 245, 0.4);
+  border-radius: 2vh;
+  width: 45vh;
+}
+
+.projectCard img {
+  height: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.projectCard p {
+  padding-top: 2vh;
+  color: black;
+  text-align: center;
 }

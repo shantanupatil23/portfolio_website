@@ -1,6 +1,6 @@
 import React from "react";
-import img_shantanu from "../assets/img_shantanu.jpg";
-import img_browser from "../assets/img_browser.png";
+import img_shantanu from "../assets/description/img_shantanu.jpg";
+import img_browser from "../assets/description/img_browser.png";
 
 function Description() {
   return (
