@@ -6,7 +6,7 @@ import img_aurora from "../assets/img_aurora.jpg";
 function Home() {
   return (
     <section
-      className="section"
+      id="home"
       style={{
         backgroundImage: `url(${img_aurora})`,
       }}
