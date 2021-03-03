@@ -90,12 +90,12 @@ section {
   background-color: #307672;
 }
 
-.projectsTitle{
+.projectsTitle {
   position: absolute;
   top: 214vh;
   left: 15vh;
   font-family: "Mali", cursive;
-  color:  rgb(18, 239, 245);
+  color: rgb(18, 239, 245);
   font-size: 400%;
 }
 
@@ -150,4 +150,43 @@ section {
   padding-top: 2vh;
   color: black;
   text-align: center;
+}
+
+/* Skills */
+
+#skills {
+  background-color: rgba(18, 239, 245, 0.1);
+}
+
+.skillsText {
+  text-align: center;
+  font-family: "Mali", cursive;
+  padding-top: 10vh;
+  color: #307672;
+  font-size: 400%;
+}
+
+.skillsRowBig {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+
+.skillsImageBigCenter {
+  height: 30vh;
+  margin: 5vh;
+}
+
+.skillsImageBigSide {
+  height: 20vh;
+  align-self: center;
+  margin: 10vh;
+}
+
+#skills p{
+  margin: 5vh 15vh 0 15vh;
+  top: 340vh;
+  text-align: center;
+  font-size: 30px;
+  color: #307672;
 }
