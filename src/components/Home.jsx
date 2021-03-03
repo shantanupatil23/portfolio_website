@@ -19,7 +19,7 @@ function Home() {
         an App Developer.
       </h1>
       <img className="img_browser" src={img_browser} alt="browser" />
-      <img className="img_phone" src={img_phone}  alt="phone" />
+      <img className="img_phone" src={img_phone} alt="phone" />
     </section>
   );
 }
