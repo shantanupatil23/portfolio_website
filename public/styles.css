@@ -183,10 +183,79 @@ section {
   margin: 10vh;
 }
 
-#skills p{
+#skills p {
   margin: 5vh 15vh 0 15vh;
   top: 340vh;
   text-align: center;
   font-size: 30px;
   color: #307672;
+}
+
+/* Achievements */
+
+#achievements {
+  background-color: #307672;
+}
+
+.achievementsText {
+  text-align: center;
+  font-family: "Mali", cursive;
+  padding-top: 10vh;
+  color: rgb(18, 239, 245);
+  font-size: 400%;
+}
+
+.githubDiv {
+  margin: 5vh 5vw;
+}
+
+.githubbg{
+  width: 90vw;
+}
+
+.github {
+  position: absolute;
+  top: 439vh;
+  left: 35vw;
+  right: 35vw;
+  width: 30vw;
+  opacity: 0.1;
+}
+
+.githubChart {
+  left: 6vw;
+  right: 6vw;
+  position: absolute;
+  top: 435vh;
+  width: 88vw;
+}
+
+
+
+.certificateCardRow {
+  /* position: absolute;
+  top: 212vh;
+  right: 20vh; */
+  margin-left: 5vw;
+}
+
+.certificateCard {
+  margin-right: 1.9vw;
+  padding: 3vh;
+  background-color: white;
+  border-radius: 2vh;
+  width: 21vw;
+}
+
+.certificateCard img {
+  align-self: center;
+  width: 7vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.certificateCard p {
+  padding: 2vh;
+  color: black;
 }
