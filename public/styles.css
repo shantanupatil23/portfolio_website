@@ -189,6 +189,7 @@ section {
   text-align: center;
   font-size: 30px;
   color: #307672;
+  word-spacing: 5.5vh;
 }
 
 /* Achievements */
@@ -209,7 +210,7 @@ section {
   margin: 5vh 5vw;
 }
 
-.githubbg{
+.githubbg {
   width: 90vw;
 }
 
@@ -229,8 +230,6 @@ section {
   top: 435vh;
   width: 88vw;
 }
-
-
 
 .certificateCardRow {
   /* position: absolute;
@@ -258,4 +257,26 @@ section {
 .certificateCard p {
   padding: 2vh;
   color: black;
+}
+
+/* Socials */
+
+#socials {
+  background-color: rgba(18, 239, 245, 0.1);
+}
+
+.socials_text {
+  padding: 20vh;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 15px;
+  color: #307672;
+}
+
+#socials div{
+  justify-content: center;
+}
+
+#socials i{
+  margin-inline: 2vw;
 }
