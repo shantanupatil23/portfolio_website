@@ -27,9 +27,9 @@ function Achievements() {
 
       <div className="row certificateCardRow">
         <div className="certificateCard">
-          <a href="https://shantanupatil23.github.io/Dicee/">
+          <a href={img_MITHackathon2019}>
             <div className="row">
-              <img src={img_mit} alt="img_MITHackathon2019" />
+              <img src={img_mit} alt="MIT Hackathon 2019" />
               <p>
                 MIT Hackathon 2019
                 <br /> Participant
@@ -38,9 +38,9 @@ function Achievements() {
           </a>
         </div>
         <div className="certificateCard">
-          <a href="https://shantanupatil23.github.io/DrumKit/">
+          <a href={img_xpansion}>
             <div className="row">
-              <img src={img_xpansion} alt="img_MITHackathon2019" />
+              <img src={img_xpansion} alt="XPERIMENTS 3.0" />
               <p>
                 XPERIMENTS 3.0
                 <br />
@@ -52,9 +52,9 @@ function Achievements() {
           </a>
         </div>
         <div className="certificateCard">
-          <a href="https://shantanupatil23.github.io/SimonGame/">
+          <a href={img_codebreak}>
             <div className="row">
-              <img src={img_codebreakic} alt="img_MITHackathon2019" />
+              <img src={img_codebreakic} alt="codebreak 2.0" />
               <p>
                 codebreak 2.0 <br /> Hackathon <br /> Finalist
               </p>
@@ -62,9 +62,9 @@ function Achievements() {
           </a>
         </div>
         <div className="certificateCard">
-          <a href="https://shantanupatil23.github.io/SimonGame/">
+          <a href={img_SIH2020}>
             <div className="row">
-              <img src={img_sih} alt="img_MITHackathon2019" />
+              <img src={img_sih} alt="SIH 2020 Hackathon" />
               <p>
                 SIH 2020 Hackathon <br /> Finalist
               </p>

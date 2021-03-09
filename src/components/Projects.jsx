@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section id="projects">
       <h1 className="projectsTitle">
-        Cool
+        My
         <br />
         Projects
       </h1>
