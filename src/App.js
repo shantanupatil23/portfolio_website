@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Achievements from "./components/Achievements";
 import Socials from "./components/Socials";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Skills />
           <Achievements />
           <Socials />
+          <Feedback />
         </div>
       </main>
       <Footer />

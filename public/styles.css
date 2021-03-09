@@ -273,10 +273,41 @@ section {
   color: #307672;
 }
 
-#socials div{
+#socials div {
   justify-content: center;
 }
 
-#socials i{
+#socials i {
   margin-inline: 2vw;
+}
+
+/* Feedback */
+
+#feedback {
+  background-color: rgba(18, 239, 245, 0.1);
+}
+
+.feedbackCardRow {
+  padding-top: 10vh;
+}
+
+.feedbackCard {
+  margin: 2vh;
+  padding: 3vh;
+  background-color: rgba(18, 239, 245, 0.4);
+  border-radius: 2vh;
+  width: 45vw;
+  height: 18vh;
+}
+
+.feedbackAuthor {
+  position: absolute;
+  right: 3vh;
+  bottom: 0;
+}
+
+.feedbackButton {
+  margin-top: 5vh;
+  text-align: center;
+  color:#307672;
 }
