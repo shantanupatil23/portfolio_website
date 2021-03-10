@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 function Feedback() {
   return (
     <section id="feedback">
+      <h1 className="feedbackTitle">Feedbacks ❤</h1>
       <div className="feedbackCardRow">
         <div style={{ display: "flex", justifyContent: "space-between" }} />
         <Slider
@@ -41,10 +42,21 @@ function Feedback() {
           </div>
         </Slider>
       </div>
+      <p className="endNote">
+        Have something to say?
+        <br />
+        <a href="/">Leave Your Feedback Here.</a>
+      </p>
+      <p className="endNote">
+        Do you have any Project in mind?
+        <br />
+        <a href="/">Hire Me!</a>
+      </p>
 
-      <a href="/feedback">
-        <div className="feedbackButton">Leave Your Feedback Here</div>
-      </a>
+      <p className="footerNote">
+        This website is built from stratch using React JS.
+        <br />© Copyright 2021 Shantanu Patil
+      </p>
     </section>
   );
 }
