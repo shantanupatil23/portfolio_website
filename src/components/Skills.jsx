@@ -45,7 +45,7 @@ import img_javascript from "../assets/skills/img_javascript.png";
 // ];
 
 const skills =
-  "Flutter Dart Android development Android SDK HTML5 CSS BootStrap JavaScript Java DOM JQuerry Unix Linux Node.js Express.js API Google API Git Github SQL NoSQL MongoDB REST Database Security Cookies Passport ReactJS React.js CPP Python C Photoshop Adobe Photoshop Lightroom Figma Adobe XD";
+  "Flutter Dart Android development Android SDK XML Java Android Studio VSCode HTML5 CSS BootStrap JavaScript Java DOM JQuerry Unix Linux Node.js Express.js API Google API Git Github SQL NoSQL MongoDB REST Database Security Cookies Passport ReactJS React.js CPP Python C Photoshop Adobe Photoshop Lightroom Figma Adobe XD IOT Arduino ArduinoIDE NodeMCU ESP8266 IOT Sensors";
 
 function Skills() {
   return (
