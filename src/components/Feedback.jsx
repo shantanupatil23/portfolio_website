@@ -18,36 +18,46 @@ function Feedback() {
         >
           <div className="feedbackCard">
             <p className="feedbackBody">
-              At the helm of today's progress is a technology that's paved the
-              way for monumental improvements in our lives -- the internet has
-              shaped our communications
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              mollis sem ut sollicitudin dignissim. Aenean fermentum dignissim
+              orci, quis facilisis nisi facilisis a. Nulla ut leo et lorem
+              faucibus pellentesque.
             </p>
-            <p className="feedbackAuthor">Manny Koshbin</p>
+            <p className="feedbackAuthor">Lorem Ipsum</p>
           </div>
           <div className="feedbackCard">
             <p className="feedbackBody">
-              At the helm of today's progress is a technology that's paved the
-              way for monumental improvements in our lives -- the internet has
-              shaped our communications
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              mollis sem ut sollicitudin dignissim. Aenean fermentum dignissim
+              orci, quis facilisis nisi facilisis a. Nulla ut leo et lorem
+              faucibus pellentesque.
             </p>
-            <p className="feedbackAuthor">Manny Koshbin</p>
+            <p className="feedbackAuthor">Lorem Ipsum</p>
           </div>
           <div className="feedbackCard">
             <p className="feedbackBody">
-              At the helm of today's progress is a technology that's paved the
-              way for monumental improvements in our lives -- the internet has
-              shaped our communications
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              mollis sem ut sollicitudin dignissim. Aenean fermentum dignissim
+              orci, quis facilisis nisi facilisis a. Nulla ut leo et lorem
+              faucibus pellentesque.
             </p>
-            <p className="feedbackAuthor">Manny Koshbin</p>
+            <p className="feedbackAuthor">Lorem Ipsum</p>
           </div>
         </Slider>
       </div>
+
+      
+
       <p className="endNote">
+        <i class="fas fa-signature"></i>
+        <br />
         Have something to say?
         <br />
         <a href="/">Leave Your Feedback Here.</a>
       </p>
       <p className="endNote">
+        <i class="fas fa-terminal"></i>
+        <br />
         Do you have any Project in mind?
         <br />
         <a href="/">Hire Me!</a>

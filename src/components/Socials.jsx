@@ -4,13 +4,12 @@ function Socials() {
   return (
     <section id="socials">
       <p className="socials_text">
-        At the helm of today's progress is a technology that's paved the way for
-        monumental improvements in our lives -- the internet has shaped our
-        communications, commerce, entertainment, and of course, our insatiable
-        thirst for information. It's evolved over the years as other
-        technologies have been built up around the expectant existence of the
-        web, providing the very bedrock for change across every field
-        imaginable.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non elit
+        id tortor interdum convallis. Morbi commodo sed sapien non viverra. Nunc
+        non cursus leo. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Aliquam vitae magna vel ante
+        auctor faucibus quis ac est. Vestibulum ac dui tempor, suscipit ipsum
+        in, vulputate lacus. Curabitur eros odio.
       </p>
       <div className="row">
         <i className="fab fa-linkedin socials_icon fa-7x"></i>

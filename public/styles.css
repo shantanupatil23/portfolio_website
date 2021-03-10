@@ -93,7 +93,7 @@ section {
   top: 214vh;
   left: 15vh;
   font-family: "Mali", cursive;
-  color: #E6FEFE;
+  color: #e6fefe;
   font-size: 400%;
 }
 
@@ -165,29 +165,30 @@ section {
 }
 
 .skillsRowBig {
+  margin-top: 5vh;
   width: 100vw;
   justify-content: center;
   display: flex;
 }
 
 .skillsImageBigCenter {
-  height: 30vh;
+  height: 20vh;
   margin: 5vh;
 }
 
 .skillsImageBigSide {
-  height: 20vh;
+  height: 10vh;
   align-self: center;
   margin: 10vh;
 }
 
 #skills p {
-  margin: 5vh 15vh 0 15vh;
+  margin: 5vh 10vw 0 10vw;
   top: 340vh;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #307672;
-  word-spacing: 5.5vh;
+  word-spacing: 5vh;
 }
 
 /* Achievements */
@@ -200,7 +201,7 @@ section {
   text-align: center;
   font-family: "Mali", cursive;
   padding-top: 10vh;
-  color: #E6FEFE;
+  color: #e6fefe;
   font-size: 400%;
 }
 
@@ -230,9 +231,6 @@ section {
 }
 
 .certificateCardRow {
-  /* position: absolute;
-  top: 212vh;
-  right: 20vh; */
   margin-left: 5vw;
 }
 
@@ -245,10 +243,9 @@ section {
 }
 
 .certificateCard img {
+  margin: 0 1vw 0 1vw;
   align-self: center;
   width: 7vw;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
@@ -285,7 +282,7 @@ section {
   background-color: rgba(18, 239, 245, 0.1);
 }
 
-.feedbackTitle{
+.feedbackTitle {
   text-align: center;
   font-family: "Mali", cursive;
   padding-top: 10vh;

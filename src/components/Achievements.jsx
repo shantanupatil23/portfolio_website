@@ -1,13 +1,15 @@
 import React from "react";
-import img_github from "../assets/achievements/img_github.png";
-import img_browser_github from "../assets/achievements/img_browser_github.png";
-import img_MITHackathon2019 from "../assets/achievements/img_MITHackathon2019.jpg";
-import img_codebreak from "../assets/achievements/img_codebreak.jpg";
-import img_SIH2020 from "../assets/achievements/img_SIH2020.jpg";
-import img_mit from "../assets/achievements/img_mit.jpeg";
-import img_xpansion from "../assets/achievements/img_xpansion.jpeg";
-import img_codebreakic from "../assets/achievements/img_codebreak.png";
-import img_sih from "../assets/achievements/img_sih.png";
+import img_logo_github from "../assets/achievements/img_logo_github.png";
+import img_bg_github from "../assets/achievements/img_bg_github.png";
+
+import img_cert_mit from "../assets/achievements/img_cert_mit.jpg";
+import img_cert_codebreak from "../assets/achievements/img_cert_codebreak.jpg";
+import img_cert_sih from "../assets/achievements/img_cert_sih.jpg";
+
+import img_logo_mit from "../assets/achievements/img_logo_mit.jpg";
+import img_logo_xpansion from "../assets/achievements/img_logo_xpansion.jpg";
+import img_logo_codebreak from "../assets/achievements/img_logo_codebreak.jpg";
+import img_logo_sih from "../assets/achievements/img_logo_sih.jpg";
 
 function Achievements() {
   return (
@@ -15,32 +17,34 @@ function Achievements() {
       <h1 className="achievementsText">Achievements</h1>
       <div className="githubDiv">
         <a href="https://github.com/shantanupatil23">
-          <img className="githubbg" src={img_browser_github} alt="" />
+          <img className="githubbg" src={img_bg_github} alt="" />
           <img
             className="githubChart"
             src="http://ghchart.rshah.org/shantanupatil23"
             alt="GitHub Contributions"
           />
-          <img className="github" src={img_github} alt="" />
+          <img className="github" src={img_logo_github} alt="" />
         </a>
       </div>
 
       <div className="row certificateCardRow">
         <div className="certificateCard">
-          <a href={img_MITHackathon2019}>
+          <a href={img_cert_mit}>
             <div className="row">
-              <img src={img_mit} alt="MIT Hackathon 2019" />
+              <img src={img_logo_mit} alt="MIT Hackathon 2019" />
               <p>
-                MIT Hackathon 2019
+                MIT 2019
+                <br />
+                Hackathon
                 <br /> Participant
               </p>
             </div>
           </a>
         </div>
         <div className="certificateCard">
-          <a href={img_xpansion}>
+          <a href={img_logo_xpansion}>
             <div className="row">
-              <img src={img_xpansion} alt="XPERIMENTS 3.0" />
+              <img src={img_logo_xpansion} alt="XPERIMENTS 3.0" />
               <p>
                 XPERIMENTS 3.0
                 <br />
@@ -52,21 +56,28 @@ function Achievements() {
           </a>
         </div>
         <div className="certificateCard">
-          <a href={img_codebreak}>
+          <a href={img_cert_sih}>
             <div className="row">
-              <img src={img_codebreakic} alt="codebreak 2.0" />
+              <img src={img_logo_sih} alt="SIH 2020 Hackathon" />
               <p>
-                codebreak 2.0 <br /> Hackathon <br /> Finalist
+                SIH 2020
+                <br />
+                Hackathon
+                <br /> Finalist
               </p>
             </div>
           </a>
         </div>
         <div className="certificateCard">
-          <a href={img_SIH2020}>
+          <a href={img_cert_codebreak}>
             <div className="row">
-              <img src={img_sih} alt="SIH 2020 Hackathon" />
+              <img src={img_logo_codebreak} alt="codebreak 2.0" />
               <p>
-                SIH 2020 Hackathon <br /> Finalist
+                Codebreak 2.0
+                <br />
+                Hackathon
+                <br />
+                Best MIT Team
               </p>
             </div>
           </a>
