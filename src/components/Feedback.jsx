@@ -46,8 +46,6 @@ function Feedback() {
         </Slider>
       </div>
 
-      
-
       <p className="endNote">
         <i class="fas fa-signature"></i>
         <br />
@@ -64,6 +62,13 @@ function Feedback() {
       </p>
 
       <p className="footerNote">
+        <a href="https://www.codefactor.io/repository/github/shantanupatil23/portfolio_website/overview/main">
+          <img
+            src="https://www.codefactor.io/repository/github/shantanupatil23/portfolio_website/badge/main"
+            alt="CodeFactor"
+          />
+        </a>
+        <br />
         This website is built from stratch using React JS.
         <br />© Copyright 2021 Shantanu Patil
       </p>
