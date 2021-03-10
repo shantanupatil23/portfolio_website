@@ -1,3 +1,5 @@
+![alt text](https://www.codefactor.io/repository/github/shantanupatil23/portfolio_website/badge)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
