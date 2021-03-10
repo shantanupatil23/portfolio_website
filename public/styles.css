@@ -105,7 +105,7 @@ section {
 
 .gameCard {
   margin: 2vh;
-  padding: 3vh 3vh 0vh 3vh;
+  padding: 3vh 3vh 0;
   background-color: rgba(18, 239, 245, 0.4);
   border-radius: 2vh;
   width: 20vh;
@@ -131,7 +131,7 @@ section {
 
 .projectCard {
   margin: 2vh;
-  padding: 3vh 3vh 0vh 3vh;
+  padding: 3vh 3vh 0;
   background-color: rgba(18, 239, 245, 0.4);
   border-radius: 2vh;
   width: 45vh;
@@ -183,7 +183,7 @@ section {
 }
 
 #skills p {
-  margin: 5vh 10vw 0 10vw;
+  margin: 5vh 10vw 0;
   top: 340vh;
   text-align: center;
   font-size: 25px;
@@ -243,7 +243,7 @@ section {
 }
 
 .certificateCard img {
-  margin: 0 1vw 0 1vw;
+  margin: 0 1vw;
   align-self: center;
   width: 7vw;
   display: block;
