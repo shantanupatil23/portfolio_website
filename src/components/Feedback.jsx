@@ -1,10 +1,10 @@
 import React from "react";
-import Slider from "../components/Slider";
+// import Slider from "../components/Slider";
 
 function Feedback() {
   return (
     <section id="feedback">
-      <h1 className="feedbackTitle">Feedbacks ❤</h1>
+      {/* <h1 className="feedbackTitle">Feedbacks ❤</h1>
       <div className="feedbackCardRow">
         <div style={{ display: "flex", justifyContent: "space-between" }} />
         <Slider
@@ -44,21 +44,28 @@ function Feedback() {
             <p className="feedbackAuthor">Lorem Ipsum</p>
           </div>
         </Slider>
-      </div>
+      </div> */}
+      <i class="fas fa-feather-alt fa-4x"></i>
+      <i class="far fa-lightbulb  fa-4x"></i>
+      <i class="fas fa-palette  fa-4x"></i>
 
       <p className="endNote">
         <i class="fas fa-signature"></i>
         <br />
         Have something to say?
         <br />
-        <a href="/">Leave Your Feedback Here.</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shantanupatildurg@gmail.com&su=I have a feedback for your Portfolio">
+          Leave Your Feedback Here.
+        </a>
       </p>
       <p className="endNote">
         <i class="fas fa-terminal"></i>
         <br />
         Do you have any Project in mind?
         <br />
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shantanupatildurg@gmail.com">Hire Me!</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shantanupatildurg@gmail.com&su=I have a job for you">
+          Hire Me!
+        </a>
       </p>
 
       <p className="footerNote">

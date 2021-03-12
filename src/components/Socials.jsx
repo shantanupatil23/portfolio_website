@@ -9,7 +9,7 @@ function Socials() {
       <img className="img_wheel socialsBg" src={img_wheel} alt="img_wheel" />
       <p className="socialsBg text-keyboard">66.2 wpm</p>
       <i class="far fa-keyboard socialsBg fa-7x"></i>
-      <p className="socials_text">
+      <p>
         Are you a Developer?
         <br />
         Do you feel alive while being on a virtual race track?
@@ -18,7 +18,8 @@ function Socials() {
         <br />
         Ti piace esplorare la lingua italiana come me?
         <br />
-        Do you like to leave graphite on paper in the form of art?
+        Do you like to leave graphite on paper in the form of astonishing
+        sketches?
         <br />
         Are you an investor? Let's talk about stocks.
         <br />
@@ -26,16 +27,16 @@ function Socials() {
       </p>
       <div className="row">
         <a href="https://www.linkedin.com/in/shantanupatil23/">
-          <i className="fab fa-linkedin socials_icon fa-4x"></i>
+          <i className="fab fa-linkedin  fa-4x"></i>
         </a>
         <a href="https://github.com/shantanupatil23">
-          <i className="fab fa-github socials_icon fa-4x"></i>
+          <i className="fab fa-github  fa-4x"></i>
         </a>
         <a href="https://www.hackerrank.com/shantanu447">
-          <i className="fab fa-hackerrank socials_icon fa-4x"></i>
+          <i className="fab fa-hackerrank  fa-4x"></i>
         </a>
         <a href="https://www.instagram.com/shantanu.patil_/">
-          <i className="fab fa-instagram socials_icon fa-4x"></i>
+          <i className="fab fa-instagram  fa-4x"></i>
         </a>
       </div>
     </section>

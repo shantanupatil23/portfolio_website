@@ -1,5 +1,8 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 700vh;
 }
 
 section {
@@ -18,11 +21,15 @@ section {
 
 /* HOME */
 
+#home div {
+  display: inline-block;
+}
+
 .intro_text {
   padding: 30vh 0 0 10vh;
   font-family: "Mali", cursive;
   font-size: 400%;
-  text-shadow: -1px -1px #11f4e6;
+  text-shadow: -2px -2px 4px #11f4e6;
 }
 
 .img_phone {
@@ -184,12 +191,13 @@ section {
 }
 
 #skills p {
+  font-size: 23px;
+  text-align: center;
+  color: #307672;
+  line-height: 6vh;
   margin: 5vh 10vw 0;
   top: 340vh;
-  text-align: center;
-  font-size: 25px;
-  color: #307672;
-  word-spacing: 5vh;
+  word-spacing: 15px;
 }
 
 /* Achievements */
@@ -266,10 +274,7 @@ section {
   text-align: center;
   color: #307672;
   line-height: 6vh;
-}
-
-.socials_text {
-  padding: 15vh 20vh 0;
+  padding-top: 25vh;
   word-spacing: 15px;
 }
 
@@ -338,9 +343,10 @@ section {
 
 #feedback {
   background-color: rgba(18, 239, 245, 0.1);
+  padding-top: 5vh;
 }
 
-.feedbackTitle {
+/* .feedbackTitle {
   text-align: center;
   font-family: "Mali", cursive;
   padding-top: 8vh;
@@ -365,19 +371,43 @@ section {
   position: absolute;
   right: 3vh;
   bottom: 0;
+} */
+
+#feedback .fa-lightbulb {
+  position: absolute;
+  overflow: hidden;
+  top: 615vh;
+  left: 20vw;
+  transform: rotate(-20deg);
+  opacity: 0.1;
 }
 
+#feedback .fa-palette {
+  position: absolute;
+  overflow: hidden;
+  top: 650vh;
+  right: 10vw;
+  opacity: 0.1;
+}
+
+#feedback .fa-feather-alt {
+  position: absolute;
+  overflow: hidden;
+  top: 675vh;
+  left: 10vw;
+  opacity: 0.1;
+}
 .endNote {
   font-size: 20px;
   color: #307672;
   font-family: "Mali", cursive;
   text-align: center;
-  margin: 5vh;
+  padding: 5vh;
 }
 
 .footerNote {
   position: absolute;
-  top: 688vh;
+  top: 682vh;
   width: 100vw;
   font-size: 20px;
   color: #307672;

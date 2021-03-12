@@ -8,10 +8,19 @@ import Skills from "./components/Skills";
 import Achievements from "./components/Achievements";
 import Socials from "./components/Socials";
 import Feedback from "./components/Feedback";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
     <div>
+      <AnimatedCursor
+        innerSize={20}
+        outerSize={19}
+        color="0, 0, 0"
+        outerAlpha={0.4}
+        innerScale={0.7}
+        outerScale={3}
+      />
       <NavBar />
       <main>
         <div>

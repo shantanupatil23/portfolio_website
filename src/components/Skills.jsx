@@ -44,9 +44,6 @@ import img_javascript from "../assets/skills/img_javascript.png";
 //   "Adobe XD",
 // ];
 
-const skills =
-  "Flutter Dart Android development Android SDK XML Java Android Studio VSCode HTML5 CSS BootStrap JavaScript Java DOM JQuerry Unix Linux Node.js Express.js API Google API Git Github SQL NoSQL MongoDB REST Database Security Cookies Passport ReactJS React.js CPP Python C Photoshop Adobe Photoshop Lightroom Figma Adobe XD IOT Arduino ArduinoIDE NodeMCU ESP8266 IOT Sensors";
-
 function Skills() {
   return (
     <section id="skills">
@@ -57,7 +54,14 @@ function Skills() {
         <img className="skillsImageBigCenter" src={img_flutter} alt="Flutter" />
         <img className="skillsImageBigSide" src={img_android} alt="Android" />
       </div>
-      <p>{skills}</p>
+      <p>
+        Flutter Dart Android development Android SDK XML Java <br /> Android
+        Studio VSCode HTML5 CSS BootStrap JavaScript Java DOM JQuerry Unix Linux
+        Node.js <br /> Express.js API Google API Git Github SQL NoSQL MongoDB
+        REST Database Security Cookies <br /> Passport ReactJS React.js CPP
+        Python C Photoshop Adobe Photoshop Lightroom Figma Adobe XD <br /> IOT
+        Arduino ArduinoIDE NodeMCU ESP8266 IOT Sensors
+      </p>
     </section>
   );
 }
