@@ -22,6 +22,7 @@ section {
   padding: 30vh 0 0 10vh;
   font-family: "Mali", cursive;
   font-size: 400%;
+  text-shadow: -1px -1px #11f4e6;
 }
 
 .img_phone {
@@ -90,7 +91,7 @@ section {
 
 .projectsTitle {
   position: absolute;
-  top: 214vh;
+  top: 220vh;
   left: 15vh;
   font-family: "Mali", cursive;
   color: #e6fefe;
@@ -106,7 +107,7 @@ section {
 .gameCard {
   margin: 2vh;
   padding: 3vh 3vh 0;
-  background-color: rgba(18, 239, 245, 0.4);
+  background-color: #e6fefe;
   border-radius: 2vh;
   width: 20vh;
 }
@@ -132,7 +133,7 @@ section {
 .projectCard {
   margin: 2vh;
   padding: 3vh 3vh 0;
-  background-color: rgba(18, 239, 245, 0.4);
+  background-color: #e6fefe;
   border-radius: 2vh;
   width: 45vh;
 }
@@ -219,7 +220,7 @@ section {
   left: 35vw;
   right: 35vw;
   width: 30vw;
-  opacity: 0.1;
+  opacity: 0.05;
 }
 
 .githubChart {
@@ -260,12 +261,16 @@ section {
   background-color: rgba(18, 239, 245, 0.1);
 }
 
-.socials_text {
-  padding: 20vh;
-  font-size: 30px;
+#socials p {
+  font-size: 20px;
   text-align: center;
-  word-spacing: 15px;
   color: #307672;
+  line-height: 6vh;
+}
+
+.socials_text {
+  padding: 15vh 20vh 0;
+  word-spacing: 15px;
 }
 
 #socials div {
@@ -273,7 +278,60 @@ section {
 }
 
 #socials i {
+  margin-top: 13vh;
   margin-inline: 2vw;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+
+.fa-github {
+  color: #24292e;
+}
+
+.fa-hackerrank {
+  color: #34a863;
+}
+
+.fa-instagram {
+  color: #d23876;
+}
+
+.socialsBg {
+  position: absolute;
+  height: 20vh;
+}
+
+.img_wheel {
+  overflow: hidden;
+  top: 510vh;
+  right: -3vw;
+  transform: rotate(15deg);
+  opacity: 0.2;
+}
+
+.img_cube {
+  overflow: hidden;
+  top: 560vh;
+  left: -1vw;
+  transform: rotate(45deg);
+  opacity: 0.1;
+}
+
+#socials .fa-keyboard {
+  overflow: hidden;
+  top: 575vh;
+  right: 10vw;
+  transform: rotate(-10deg);
+  opacity: 0.1;
+}
+
+.text-keyboard {
+  overflow: hidden;
+  top: 585vh;
+  right: 13.7vw;
+  transform: rotate(-10deg);
+  opacity: 0.3;
 }
 
 /* Feedback */
@@ -285,7 +343,7 @@ section {
 .feedbackTitle {
   text-align: center;
   font-family: "Mali", cursive;
-  padding-top: 10vh;
+  padding-top: 8vh;
   color: #307672;
   font-size: 200%;
 }
