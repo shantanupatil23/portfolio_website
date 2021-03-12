@@ -6,7 +6,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-md navbar-light fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Personal
+            Portfolio.
           </a>
           <button
             className="navbar-toggler"

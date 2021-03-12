@@ -12,7 +12,7 @@ function Home() {
       }}
     >
       <h1 className="intro_text">
-        Hi,
+        Hello,
         <br />
         I'm Shantanu
         <br />

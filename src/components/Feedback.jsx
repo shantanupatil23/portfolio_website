@@ -58,7 +58,7 @@ function Feedback() {
         <br />
         Do you have any Project in mind?
         <br />
-        <a href="/">Hire Me!</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shantanupatildurg@gmail.com">Hire Me!</a>
       </p>
 
       <p className="footerNote">

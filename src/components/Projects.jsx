@@ -8,11 +8,7 @@ import Slider from "../components/Slider";
 function Projects() {
   return (
     <section id="projects">
-      <h1 className="projectsTitle">
-        My
-        <br />
-        Projects
-      </h1>
+      <h1 className="projectsTitle">My Works</h1>
       <div className="row gameCardRow">
         <div className="gameCard">
           <a href="https://shantanupatil23.github.io/Dicee/">
