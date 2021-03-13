@@ -14,12 +14,8 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <section
-        id="home"
-        style={{
-          backgroundImage: `url(${img_aurora})`,
-        }}
-      >
+      <section id="home">
+        <img className="backgroundImage" src={img_aurora} alt="backgroundImage"/>
         <h1 className="intro_text">
           Hello,
           <br />
