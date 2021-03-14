@@ -16,10 +16,10 @@ function App() {
       <AnimatedCursor
         innerSize={20}
         outerSize={19}
-        color="0, 0, 0"
+        color="223, 182, 63"
         outerAlpha={0.4}
         innerScale={0.7}
-        outerScale={3}
+        outerScale={2}
       />
       <NavBar />
       <main>

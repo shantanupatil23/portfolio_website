@@ -38,7 +38,7 @@ section {
 
 .intro_text {
   position: absolute;
-  bottom: 24px;
+  bottom: 64px;
   left: 64px;
   font-size: 400%;
   color: #e6fefe;
@@ -71,7 +71,7 @@ section {
   z-index: 2;
   opacity: 0;
   animation-name: phone;
-  animation-duration: 6s;
+  animation-duration: 8.5s;
   animation-fill-mode: forwards;
 }
 
@@ -96,8 +96,8 @@ section {
   z-index: 3;
   opacity: 0;
   animation-name: browser;
-  animation-duration: 2.33s;
-  animation-delay: 2.1s;
+  animation-duration: 3.5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 

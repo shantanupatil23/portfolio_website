@@ -25,7 +25,7 @@ export default class Home extends Component {
             a
             <TextScramble
               phrases={["", "n", "", "n"]}
-              freezeDuration={1500}
+              freezeDuration={2200}
               reportProgress={(progress) => {
                 this.setState({ scrambleProgess: progress });
               }}
@@ -33,7 +33,7 @@ export default class Home extends Component {
             &nbsp;
             <TextScramble
               phrases={["", "Android", "Web", "App"]}
-              freezeDuration={1000}
+              freezeDuration={1500}
               reportProgress={(progress) => {
                 this.setState({ scrambleProgess: progress });
               }}
