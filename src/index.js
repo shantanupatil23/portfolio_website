@@ -16,14 +16,14 @@ const MyRoutes = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/" component={App} exact />
-      <Route path="/Foodify" component={Foodify} exact />
-      <Route path="/BMT" component={BMT} exact />
-      <Route path="/Busify" component={Busify} exact />
-      <Route path="/Keeper" component={Keeper} exact />
-      <Route path="/Home" component={Home} exact />
-      <Route path="/Potholes" component={Potholes} exact />
-      <Route path="/Blog" component={Blog} exact />
-      <Route path="/ToDo" component={ToDo} exact />
+      <Route path="/Project/Foodify" component={Foodify} exact />
+      <Route path="/Project/BMT" component={BMT} exact />
+      <Route path="/Project/Busify" component={Busify} exact />
+      <Route path="/Project/Keeper" component={Keeper} exact />
+      <Route path="/Project/Home" component={Home} exact />
+      <Route path="/Project/Potholes" component={Potholes} exact />
+      <Route path="/Project/Blog" component={Blog} exact />
+      <Route path="/Project/ToDo" component={ToDo} exact />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>

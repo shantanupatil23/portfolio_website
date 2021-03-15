@@ -59,44 +59,44 @@ function Projects() {
           }}
         >
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/img_foodifylg/">
+            <a href="/Project/Foodify">
               <img src={foodifylg} alt="foodifylg" />
             </a>
           </div>
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/TickTacToe/">
+            <a href="/Project/BMT">
               <img src={bmtlg} alt="bmtlg" />
             </a>
           </div>
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/TickTacToe/">
+            <a href="/Project/Busify">
               <img src={busifylg} alt="busifylg" />
             </a>
           </div>
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/Dicee/">
+            <a href="/Project/Keeper">
               <img src={keeperlg} alt="keeperlg" />
             </a>
           </div>
           <div className="projectCard wonames">
-            <a href="https://shantanupatil23.github.io/DrumKit/">
+            <a href="/Project/Home">
               <img src={homelg} alt="homelg" />
               <p>Smart And Secure Homes</p>
             </a>
           </div>
           <div className="projectCard wonames">
-            <a href="https://shantanupatil23.github.io/SimonGame/">
+            <a href="/Project/Potholes">
               <img src={potholeslg} alt="potholeslg" />
               <p>Potholes+</p>
             </a>
           </div>
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/Dicee/">
+            <a href="/Project/Blog">
               <img src={bloglg} alt="bloglg" />
             </a>
           </div>
           <div className="projectCard wnames">
-            <a href="https://shantanupatil23.github.io/Dicee/">
+            <a href="/Project/ToDo">
               <img src={todolg} alt="todolg" />
             </a>
           </div>
