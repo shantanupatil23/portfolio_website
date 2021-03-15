@@ -15,11 +15,11 @@ function App() {
     <div>
       <AnimatedCursor
         innerSize={20}
-        outerSize={19}
+        outerSize={17}
         color="223, 182, 63"
-        outerAlpha={0.4}
+        outerAlpha={0.5}
         innerScale={0.7}
-        outerScale={2}
+        outerScale={3}
       />
       <NavBar />
       <main>

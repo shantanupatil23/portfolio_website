@@ -7,12 +7,12 @@ function Socials() {
     <section id="socials">
       <img className="img_cube socialsBg" src={img_cube} alt="img_cube" />
       <img className="img_wheel socialsBg" src={img_wheel} alt="img_wheel" />
-      <p className="socialsBg text-keyboard">66.2 wpm</p>
+      <p className="text-keyboard">66.2 wpm</p>
       <i class="far fa-keyboard socialsBg fa-7x"></i>
       <p>
         Are you a Developer?
         <br />
-        Do you feel alive while being on a virtual race track?
+        Do you like stretching your legs on a race track?
         <br />
         Can you solve the Rubik's cube in under 25 seconds or ever wanted to?
         <br />

@@ -2,7 +2,6 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div>
       <nav className="navbar navbar-expand-md navbar-light fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
@@ -55,7 +54,6 @@ function NavBar() {
           </div>
         </div>
       </nav>
-    </div>
   );
 }
 

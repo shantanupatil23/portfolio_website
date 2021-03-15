@@ -1,4 +1,5 @@
-dynamic navigation item font color
+home animations
 scroll animations
 projects
-scroll down indicator
+smooth and extra scroll
+hover effect on project cards
