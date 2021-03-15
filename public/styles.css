@@ -33,7 +33,6 @@ section {
   bottom: 64px;
   left: 64px;
   font-size: 400%;
-  color: #e6fefe;
 }
 
 @keyframes phone {
@@ -146,6 +145,14 @@ section {
   font-size: 400%;
 }
 
+.projectsTitleSmall{
+  position: absolute;
+  top: 218vh;
+  left: 14vh;
+  color: rgb(230,254,254,0.25);
+  font-size: 100%;
+}
+
 .gameCardRow {
   position: absolute;
   top: 212vh;
@@ -178,7 +185,7 @@ section {
   padding-top: 40vh;
 }
 
-.projectCard {
+.wonames {
   margin: 2vh;
   padding: 3vh 3vh 0;
   background-color: #e6fefe;
@@ -186,17 +193,30 @@ section {
   width: 45vh;
 }
 
-.projectCard img {
+.wonames img {
   height: 35vh;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.projectCard p {
+.wonames p {
   padding-top: 2vh;
   color: black;
   text-align: center;
+}
+
+.wnames {
+  border-radius: 2vh;
+  height: 45vh;
+  width: 45vh;
+  margin: 2vh;
+}
+
+.wnames img{
+  border-radius: 2vh;
+  height: 45vh;
+  width: 45vh;
 }
 
 /* Skills */

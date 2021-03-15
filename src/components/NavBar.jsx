@@ -32,7 +32,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#projects">
-                  Projects
+                  Works
                 </a>
               </li>
               <li className="nav-item">
