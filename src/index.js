@@ -3,14 +3,14 @@ import { render } from "react-dom";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import App from "./App";
-import Foodify from "./components/Projects/Foodify";
-import BMT from "./components/Projects/BMT";
-import Busify from "./components/Projects/Busify";
-import Keeper from "./components/Projects/Keeper";
-import Home from "./components/Projects/Home";
-import Potholes from "./components/Projects/Potholes";
-import Blog from "./components/Projects/Blog";
-import ToDo from "./components/Projects/ToDo";
+import Foodify from "./components/Project_Foodify";
+import BMT from "./components/Project_BMT";
+import Busify from "./components/Project_Busify";
+import Keeper from "./components/Project_Keeper";
+import Home from "./components/Project_Home";
+import Potholes from "./components/Project_Potholes";
+import Blog from "./components/Project_Blog";
+import ToDo from "./components/Project_ToDo";
 
 const MyRoutes = () => (
   <BrowserRouter>
