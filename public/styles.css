@@ -31,8 +31,8 @@ section {
 
 .intro_text {
   position: absolute;
-  bottom: 64px;
-  left: 64px;
+  bottom: 2vw;
+  left: 4vw;
   font-size: 5vh;
 }
 

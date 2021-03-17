@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import img_browser from "../assets/home/img_browser.png";
 import img_phone from "../assets/home/img_phone.png";
 import img_aurora from "../assets/home/img_aurora.jpg";
+import img_aurora_compressed from "../assets/home/img_aurora_compressed.jpg";
 import TextScramble from "react-textscramble";
 
 export default class Home extends Component {
@@ -15,7 +16,16 @@ export default class Home extends Component {
   render() {
     return (
       <section id="home">
-        <img className="backgroundImage" src={img_aurora} alt="backgroundImage"/>
+        <img
+          className="backgroundImage"
+          src={img_aurora_compressed}
+          alt="backgroundImage"
+        />
+        <img
+          className="backgroundImage"
+          src={img_aurora}
+          alt="backgroundImage"
+        />
         <h1 className="intro_text">
           Hello,
           <br />
