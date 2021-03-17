@@ -22,6 +22,7 @@ section {
 }
 
 .backgroundImage {
+  object-fit: none;
   position: absolute;
   z-index: -10;
   width: 100%;
@@ -32,7 +33,7 @@ section {
   position: absolute;
   bottom: 64px;
   left: 64px;
-  font-size: 400%;
+  font-size: 5vh;
 }
 
 @keyframes phone {
@@ -56,8 +57,8 @@ section {
 .img_phone {
   position: absolute;
   top: 10vh;
-  right: 10vh;
-  height: 85vh;
+  right: 5vw;
+  width: 25vw;
   z-index: 2;
   opacity: 0;
   animation-name: phone;
@@ -80,9 +81,8 @@ section {
 .img_browser {
   position: absolute;
   top: 26vh;
-  left: 83vh;
-  right: 30vh;
-  height: 53vh;
+  right: 15vw;
+  width: 44vw;
   z-index: 3;
   opacity: 0;
   animation-name: browser;
@@ -96,38 +96,43 @@ section {
 #description {
   background-color: rgba(18, 239, 245, 0.1);
 }
+.descrow {
+  justify-content: space-between;
+  position: relative;
+  top: 30vh;
+  margin: 0 10vw;
+}
 
 .img_shantanu {
-  position: absolute;
-  top: 130vh;
-  left: 30vh;
-  height: 40vh;
+  margin: auto;
+  width: 20vw;
   border-radius: 5vh;
 }
 
-.name_text {
-  position: absolute;
-  top: 138vh;
-  left: 93vh;
-  z-index: 4;
-}
-
-.description_text {
-  position: absolute;
-  top: 147vh;
-  left: 93vh;
-  right: 33vh;
-  z-index: 4;
+.descdiv {
+  position: relative;
 }
 
 .img_browser_description {
-  position: absolute;
-  top: 126vh;
-  left: 83vh;
-  right: 30vh;
-  height: 53vh;
+  width: 45vw;
   z-index: 3;
   opacity: 0.5;
+}
+
+.name_text {
+  margin: 0 5vw;
+  position: absolute;
+  top: 5vw;
+  z-index: 4;
+  font-size: 3vw;
+}
+
+.description_text {
+  margin: 0 5vw;
+  position: absolute;
+  top: 10vw;
+  z-index: 4;
+  font-size: 1.1vw;
 }
 
 /* PROJECTS */
@@ -136,53 +141,43 @@ section {
   background-color: #307672;
 }
 
+.divmainrow {
+  justify-content: space-between;
+  padding: 12vh 8vw;
+}
+
+.projectsTitleSmall {
+  color: rgb(230, 254, 254, 0.25);
+  font-size: 1vw;
+}
+
 .projectsTitle {
-  position: absolute;
-  top: 220vh;
-  left: 15vh;
   font-family: "Mali", cursive;
   color: #e6fefe;
-  font-size: 400%;
+  font-size: 4vw;
 }
 
-.projectsTitleSmall{
-  position: absolute;
-  top: 218vh;
-  left: 16vh;
-  color: rgb(230,254,254,0.25);
-  font-size: 100%;
-}
-
-.gameCardRow {
-  position: absolute;
-  top: 212vh;
-  right: 20vh;
-}
 
 .gameCard {
-  margin: 2vh;
-  padding: 3vh 3vh 0;
+  margin: 1vw;
+  padding: 1.5vw 1.5vw 0;
   background-color: #e6fefe;
-  border-radius: 2vh;
-  width: 20vh;
+  border-radius: 1vw;
+  width: 10vw;
 }
 
 .gameCard img {
   align-self: center;
-  height: 10vh;
-  margin-left: auto;
-  margin-right: auto;
+  width: 5vw;
+  margin: 0 auto;
   display: block;
 }
 
 .gameCard p {
-  padding-top: 2vh;
+  padding-top: 1vw;
   color: black;
   text-align: center;
-}
-
-.projectCardRow {
-  padding-top: 40vh;
+  font-size: 1vw;
 }
 
 .wonames {
@@ -213,7 +208,7 @@ section {
   margin: 2vh;
 }
 
-.wnames img{
+.wnames img {
   border-radius: 2vh;
   height: 45vh;
   width: 45vh;
@@ -237,28 +232,28 @@ section {
   margin-top: 5vh;
   width: 100vw;
   justify-content: center;
-  display: flex;
 }
 
 .skillsImageBigCenter {
-  height: 20vh;
-  margin: 5vh;
+  width: 10vw;
+  margin: 2.5vw;
+  object-fit: contain;
 }
 
 .skillsImageBigSide {
-  height: 10vh;
+  width: 5vw;
   align-self: center;
-  margin: 10vh;
+  margin: 5vw;
 }
 
 #skills p {
-  font-size: 23px;
+  font-size: 1.5vw;
   text-align: center;
   color: #307672;
   line-height: 6vh;
   margin: 5vh 10vw 0;
   top: 340vh;
-  word-spacing: 15px;
+  word-spacing: 1vw;
 }
 
 /* Achievements */
@@ -276,6 +271,7 @@ section {
 }
 
 .githubDiv {
+  position: relative;
   margin: 5vh 5vw;
 }
 
@@ -283,20 +279,11 @@ section {
   width: 90vw;
 }
 
-.github {
-  position: absolute;
-  top: 439vh;
-  left: 35vw;
-  right: 35vw;
-  width: 30vw;
-  opacity: 0.05;
-}
-
 .githubChart {
-  left: 6vw;
-  right: 6vw;
+  top: 5vw;
+  left: 1vw;
+  right: 1vw;
   position: absolute;
-  top: 435vh;
   width: 88vw;
 }
 
@@ -322,6 +309,7 @@ section {
 .certificateCard p {
   padding: 2vh;
   color: black;
+  font-size: 1vw;
 }
 
 /* Socials */
@@ -331,7 +319,7 @@ section {
 }
 
 #socials p {
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: center;
   color: #307672;
   line-height: 6vh;

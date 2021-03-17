@@ -19,32 +19,36 @@ import Slider from "../components/Slider";
 function Projects() {
   return (
     <section id="projects">
-      <p className="projectsTitleSmall">few of *</p>
-      <h1 className="projectsTitle">My Works</h1>
-      <div className="row gameCardRow">
-        <div className="gameCard">
-          <a href="https://shantanupatil23.github.io/Dicee/">
-            <img src={img_dice} alt="Dicee" />
-            <p>Dicee</p>
-          </a>
+      <div className="row divmainrow">
+        <div>
+          <p className="projectsTitleSmall">few of *</p>
+          <h1 className="projectsTitle">My Works</h1>
         </div>
-        <div className="gameCard">
-          <a href="https://shantanupatil23.github.io/DrumKit/">
-            <img src={img_drumkit} alt="Drum Kit" />
-            <p>Drum Kit</p>
-          </a>
-        </div>
-        <div className="gameCard">
-          <a href="https://shantanupatil23.github.io/SimonGame/">
-            <img src={img_simongame} alt="Simon Game" />
-            <p>Simon Game</p>
-          </a>
-        </div>
-        <div className="gameCard">
-          <a href="https://shantanupatil23.github.io/TickTacToe/">
-            <img src={img_tictactoe} alt="Tic Tac Toe" />
-            <p>Tic Tac Toe</p>
-          </a>
+        <div className="row gameCardRow">
+          <div className="gameCard">
+            <a href="https://shantanupatil23.github.io/Dicee/">
+              <img src={img_dice} alt="Dicee" />
+              <p>Dicee</p>
+            </a>
+          </div>
+          <div className="gameCard">
+            <a href="https://shantanupatil23.github.io/DrumKit/">
+              <img src={img_drumkit} alt="Drum Kit" />
+              <p>Drum Kit</p>
+            </a>
+          </div>
+          <div className="gameCard">
+            <a href="https://shantanupatil23.github.io/SimonGame/">
+              <img src={img_simongame} alt="Simon Game" />
+              <p>Simon Game</p>
+            </a>
+          </div>
+          <div className="gameCard">
+            <a href="https://shantanupatil23.github.io/TickTacToe/">
+              <img src={img_tictactoe} alt="Tic Tac Toe" />
+              <p>Tic Tac Toe</p>
+            </a>
+          </div>
         </div>
       </div>
       <div className="projectCardRow">

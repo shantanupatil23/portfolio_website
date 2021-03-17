@@ -1,5 +1,4 @@
 import React from "react";
-import img_logo_github from "../assets/achievements/img_logo_github.png";
 import img_bg_github from "../assets/achievements/img_bg_github.png";
 
 import img_cert_mit from "../assets/achievements/img_cert_mit.jpg";
@@ -23,7 +22,6 @@ function Achievements() {
             src="http://ghchart.rshah.org/shantanupatil23"
             alt="GitHub Contributions"
           />
-          <img className="github" src={img_logo_github} alt="" />
         </a>
       </div>
 
